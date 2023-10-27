@@ -1,0 +1,50 @@
+footer {
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 254px;
+  
+   
+   
+}
+  
+  .leftFooter {
+    width: 20%;
+   
+  }
+  
+  .midFooter {
+    width: 60%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: space-between; /* or other values like space-around, space-evenly */
+    justify-content: space-between;
+     text-align: center;
+    
+  
+    
+  }
+
+  .brands{
+  
+    display: flex;
+    justify-content:space-evenly;
+    
+    
+  }
+  
+ 
+  
+  
+  .rightFooter {
+    width: 20%;
+  
+    
+  }
+  
+  

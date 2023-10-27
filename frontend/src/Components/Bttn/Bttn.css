@@ -1,0 +1,16 @@
+.fixed-button {
+    position: fixed;
+    top: 320px; /* Vertical position 100px from the top */
+    right: -23px; /* Right position 10px from the right edge */
+  }
+  
+  .fixed-button button {
+    background-color: #fff;
+    color: #131313;
+    border: 2px solid black;
+   
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: rotate(-90deg);
+  }

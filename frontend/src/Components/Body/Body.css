@@ -1,0 +1,40 @@
+.img-cont-body{
+
+
+
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      padding: 0;
+    
+      
+
+      
+}
+
+.it{
+
+      width: 720px;
+      height: 599px;
+      flex-shrink: 0;
+     
+}
+
+@media(max-width: 768px){
+
+    .img-cont-body{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: flex-start;
+      padding: 0;
+      margin-left: -50px;
+    }
+
+    .it img{
+            width:auto;
+    }
+}
+

@@ -1,0 +1,22 @@
+.ii{
+    width: 1440px;
+height: 599px;
+   
+}
+
+.ib img{
+    width:auto;
+
+}
+
+
+.ic{
+    display: flex;
+    justify-content: center;
+}
+
+.ik{
+     display: flex;
+     justify-content: center;
+
+}

@@ -1,0 +1,46 @@
+@font-face {
+   font-family: my;
+   src: url('https://fonts.googleapis.com/css?family=Oxygen');
+ }
+ .container{
+    /* height:552px; */
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: -200px;
+
+    height:auto; 
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    
+    
+    
+   
+ }
+
+ .text-cont{
+     
+   color:black;
+    text-align: center;
+    z-index: 1000;
+    font-family: my;
+    
+ }
+
+ .img-cont{
+     display: flex;
+     
+    
+     justify-content: space-between;
+     margin-top: 40px;
+ }
+
+   @media(max-width: 768px){
+
+      .img-cont{
+           display: flex;
+           flex-direction: column;
+           overflow: hidden;
+      }
+   }
+
