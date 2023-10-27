@@ -137,6 +137,9 @@
     .option{
       display: none;
     }
+    
+   
+
 }
 
 @media(min-width:768px){
@@ -146,6 +149,21 @@
    .tt{
       display: none;
    }
+
+  
+}
+
+@media(max-width:420px){
+    .logo{
+      color: #fff;
+    }
+
+    .srch{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+
 }
 
 

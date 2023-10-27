@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <div>
     <div className="navbar">
-      <div className="logo"> <h1>PISTONS</h1></div>
+      <div className= 'logo'> <h3>PISTON</h3></div>
          
          <div className='option'>
           <div> <a href="#">NEW</a> </div>
@@ -52,7 +52,7 @@ function Navbar() {
         </div> 
          
         
-        <div>
+        <div >
       <div className={`search ${isSearchOpen ? 'open' : ''}`}>
         <input type="text" placeholder="" />
         <button onClick={toggleSearch}>Search</button>
