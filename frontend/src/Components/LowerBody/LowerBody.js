@@ -7,12 +7,15 @@ import fmn from "../../assets/Frame 9.png"
 
 const A = () => {
   return (
+    <div>
     <div className='ic'> 
+
           <div className='ii'>
 
-       <img src={im}/>
+               <img src={im}/>
 
-</div>
+         </div>
+    </div>
     </div>
    
   )
@@ -21,13 +24,27 @@ const A = () => {
 const B= () => {
     
     return (
+     <div>
+
         <div className='ik'>
+
               <div className='ib'>
            
-           <img src={krk} alt="krk" />
-           <img src={fmn} alt="fmn" />
+                   <img src={krk} alt="krk" />
+          
+               </div>
+
+            <div className='ib'>
+           
+                 <img src={fmn} alt="krk" />
+          
+            </div>
+
+
+
          </div>
-        </div>
+
+     </div>
         
     )
 
@@ -44,10 +61,10 @@ const LowerBody = () => {
         setIsMobile(window.innerWidth <= 768);
       };
   
-      // Attach the event listener when the component mounts
+     
       window.addEventListener('resize', handleResize);
   
-      // Clean up the event listener when the component unmounts
+    
       return () => {
         window.removeEventListener('resize', handleResize);
       };

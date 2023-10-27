@@ -28,7 +28,7 @@ const Testimonials = () => {
       try {
         // const response = await fetch(url);
         const response = await fetch(url, {
-          method: 'GET', // Specify the HTTP method (GET in this case)
+          method: 'GET', 
           mode: 'cors', // Enable CORS
         });
         if (!response.ok) {

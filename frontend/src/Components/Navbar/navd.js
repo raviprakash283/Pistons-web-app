@@ -4,7 +4,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 
-import './navd.css'; // Import your CSS file
+import './navd.css'; 
 import srch from"../../assets/search.jpeg"
 import menu from"../../assets/menu.jpeg"
 
@@ -103,3 +103,5 @@ function Navbar() {
 
 export default Navbar;
 
+
+  /*Done*/

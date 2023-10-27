@@ -21,8 +21,8 @@ footer {
     height: 100%;
    
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: space-between; /* or other values like space-around, space-evenly */
+    flex-direction: column; 
+    align-items: space-between; 
     justify-content: space-between;
      text-align: center;
     
@@ -46,5 +46,8 @@ footer {
   
     
   }
+
+  
+  /*Done*/
   
   

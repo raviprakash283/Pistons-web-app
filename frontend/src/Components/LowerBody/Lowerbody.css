@@ -1,22 +1,56 @@
-.ii{
-    width: 1440px;
-height: 599px;
-   
-}
-
-.ib img{
-    width:auto;
-
-}
 
 
-.ic{
+
+  .ik{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-}
+  }
+  
+   .ib {
+    max-width: 100%; 
+    height: auto; 
+    flex-shrink: 0;
+  }
 
-.ik{
-     display: flex;
-     justify-content: center;
+  .ii {
+    max-width: 100%; 
+    height: auto; 
+    flex-shrink: 0;
+  }
 
-}
+  .ii img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .ib img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .ik {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  
+    .ii img {
+      max-width: 100%; 
+      height: auto; 
+    }
+
+    .ib img {
+        max-width: 100%; 
+        height: auto; 
+      }
+  }
+  
+
+  
+  /*Done*/
+  
+    
