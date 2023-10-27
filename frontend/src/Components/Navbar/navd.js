@@ -42,7 +42,11 @@ function Navbar() {
           <div> <a href="#">BRANDS</a> </div>
           <div>  <a href="#">COLLECTIONS</a></div>
           <div> <a href="#">ACCESSORIES</a> </div>
-          <div> <Link to="hero"  spy={true} smooth={true} offset={-100} duration={500}> ABOUT</Link> </div>
+          <div> 
+          <Link to="hero" className='L'spy={true} smooth={true} offset={-100} duration={500}>
+                    ABOUT
+         </Link>
+            </div>
        
 
         </div> 
@@ -90,7 +94,9 @@ function Navbar() {
 <div className='txt'> <a href="#">BRANDS</a> </div>
 <div className='txt'>  <a href="#">COLLECTIONS</a></div>
 <div className='txt'> <a href="#">ACCESSORIES</a> </div>
-<div className='txt'> <a href="#">ABOUT</a>  </div>
+<div className='txt'>   <Link to="hero" className='L' spy={true} smooth={true} offset={-100} duration={500}>
+                    ABOUT
+         </Link> </div>
 </div>
 
   </div>
