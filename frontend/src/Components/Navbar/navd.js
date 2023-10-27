@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <div>
     <div className="navbar">
-      <div className="logo">PISTONS</div>
+      <div className="logo"> <h1>PISTONS</h1></div>
          
          <div className='option'>
           <div> <a href="#">NEW</a> </div>

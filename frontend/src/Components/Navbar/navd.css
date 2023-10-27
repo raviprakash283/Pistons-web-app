@@ -5,14 +5,14 @@
   align-items: center;
   background-color: #fff;
   color: #080808;
-  padding: 10px;
+ 
   position: relative;
 }
 
 
 @font-face {
   font-family: sky;
-  src: url('https://fonts.googleapis.com/css?family=Pridi');
+  src: url('https://fonts.googleapis.com/css2?family=Pridi&display=swap');
 }
 
 

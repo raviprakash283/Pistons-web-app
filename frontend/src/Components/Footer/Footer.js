@@ -26,7 +26,8 @@ const Footer = () => {
 
         <div>
 
-              <img src={stay} alt="stay connected" />
+              {/* <img src={stay} alt="stay connected" /> */}
+              <h1>STAY CONNECTED</h1>
         </div>
 
         <div className='brands'>

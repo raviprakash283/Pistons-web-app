@@ -1,77 +1,4 @@
-
-/* 
-
-.aboutSection {
-    height: 636px;
-    width: 100vw;
-    max-width: 100%;
-    background-color: rgb(161, 49, 49);
-    display: grid;
-    grid-template-columns: 4fr 4fr;
-    position:relative;
-  }
-  
-
-   @font-face {
-    font-family: my;
-    src: url('https://fonts.googleapis.com/css?family=Oxygen');
-  }
-  .aboutSectionContainer {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    background-color: rgb(255, 255, 255);
-    width: 100vw;
-    height: 100vh;
-    transform: translateX(-50%) translateY(-50%);
  
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  
-  .aboutSectionContainer > div {
-    display: flex;
-    width: 100%;
-  }
-  
-  .aboutSectionContainer > div > div {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2vmax;
-    box-sizing: border-box;
-  }
-  
-  
-  
-  
-  
-  
-
-  
-  .aboutSectionContainer2 {
-    font-family: my;
-    font-weight: bold;
-  }
-  
- 
-  
-  
-  
-  
-  @media(max-width: 768px) {
-       .ll{
-          display: flex;
-          flex-direction:column ;
-       }
-   
-
-      
-  } */
 
 
   .aboutSection {
@@ -141,6 +68,21 @@
           display: flex;
           flex-direction:column ;
        }
+
+       .aboutSectionContainer1 img {
+        max-width: 100%;
+        height: auto;
+      } 
       
   }
+
   
+   
+
+
+  
+
+
+
+/* About.css */
+
