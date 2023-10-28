@@ -1,7 +1,8 @@
 .fixed-button {
     position: fixed;
-    top: 320px; /* Vertical position 100px from the top */
-    right: -23px; /* Right position 10px from the right edge */
+    top: 320px; 
+    right: -23px; 
+    z-index: 1000;
   }
   
   .fixed-button button {
@@ -14,3 +15,6 @@
     cursor: pointer;
     transform: rotate(-90deg);
   }
+
+  
+  /*Done*/
