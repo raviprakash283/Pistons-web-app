@@ -11,7 +11,7 @@ import img6 from "../../assets/pexels-anete-lusina-5240857 1.png"
 
 const Body = () => {
   return (
-    <div >
+    <div className='mn' >
           
 
           <div  className='img-cont-body'>

@@ -16,5 +16,15 @@
     transform: rotate(-90deg);
   }
 
+  @media (max-width:768px) {
+        
+    .fixed-button button {
+       
+        padding: 5px 10px; 
+        border-radius: 3px; 
+        font-size: 14px; 
+      }
+  }
+
   
   /*Done*/
