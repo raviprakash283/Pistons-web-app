@@ -3,7 +3,7 @@
    src: url('https://fonts.googleapis.com/css?family=Oxygen');
  }
  .container{
-    /* height:552px; */
+    
     width: 100%;
     margin-top: 60px;
     margin-bottom: -200px;
@@ -35,6 +35,11 @@
      margin-top: 40px;
  }
 
+ .img-cont div :hover{
+       opacity: 1;
+       cursor: pointer;
+ }
+
    @media(max-width: 768px){
 
       .img-cont{
@@ -42,7 +47,52 @@
            flex-direction: column;
            overflow: hidden;
       }
+
+      /* .img-cont-2 {
+         position: relative;
+       }
+     
+        .overlay {
+         position: absolute;
+         top: 0; 
+         left: 80px; 
+       }  */
    }
 
+   
 
-  /*Done*/
+   
+
+
+   /* Testimonials.css */
+/* ... Other styles ... */
+
+
+
+.overlay {
+
+   position: absolute; /* Position relative to the container */
+  top: 0px; /* Adjust as needed */
+  left: 0px;
+  margin-left:3px;
+  
+   width: 277px;
+   height: 277px;
+   background-color: rgba(7, 7, 7); /* Semi-transparent black overlay */
+   border-radius: 20px;
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   opacity: 0;
+  
+ }
+ 
+ .overlay p {
+   color: white;
+   font-size: 17px;
+ }
+
+ .img-cont-2{
+   position: relative;
+ }

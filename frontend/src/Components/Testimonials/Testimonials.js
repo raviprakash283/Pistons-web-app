@@ -17,39 +17,38 @@ const Testimonials = () => {
  
 
 
-    const url = 'https://elitefit4you.com/test-api/testimonials.json';
+  //   const url = 'test-api/testimonials.json';
     
 
 
-    const [data, setData] = useState([]);
+  //   const [data, setData] = useState([]);
   
     
-    const fetchInfo = async () => {
-      try {
-        // const response = await fetch(url);
-        const response = await fetch(url, {
-          method: 'GET', 
-          mode: 'cors', // Enable CORS
-        });
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        const data = await response.json();
-        setData(data);
-        console.log(data);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    };
+  //   fetch('https://elitefit4you.com/test-api/testimonials.json')
+  // .then((response) => {
+  //   if (!response.ok) {
+  //     throw new Error('Network response was not ok');
+  //   }
+  //   return response.json();
+  // })
+  // .then((data) => {
+  //   console.log(data);
+  // })
+  // .catch((error) => {
+  //   console.error('Error fetching data:', error);
+  // });
 
      
-    useEffect(() => {
-      fetchInfo();
-    }, []);
+  //   useEffect(() => {
+      
+  //   }, []);
     
 
 
-
+     const a= "I stumbled upon this shop, and their selection blew me away. The user-friendly website made my shopping experience a breeze!";
+     const b= "The checkout process was seamless, and the responsive design worked flawlessly on my mobile device. I'll definitely be coming back!"
+     const c= "Their site's intuitive navigation made finding the perfect pen a joy. Five stars for both their products and web design!"
+     const d= "I appreciate the attention to detail in both their pens and website. A visually stunning and user-focused online shop.";
 
   return (
     <div className='container' >
@@ -61,21 +60,46 @@ const Testimonials = () => {
                
           <div className='img-cont'> 
 
-      
+          
 
-                 <div>   <img src={img1} alt="img" /></div>
+                  <div className='img-cont-2'>  
+                           <img src={img1} alt="img" />
+                      <div className="overlay">
+                             <p>{a}</p>
+                      </div>
+                  </div>
 
-                 <div>  <img src={img2} alt="img" /> </div>
+                 <div  className='img-cont-2' > 
+                            <img src={img2} alt="img" />
+                      <div className="overlay">
+                                <p>{b}</p>
+                      </div>
+                  </div>
 
-                 <div> <img src={img3} alt="img" /></div>
+                 <div  className='img-cont-2'> 
+                       <img src={img3} alt="img" />
+                       <div className="overlay">
+                               <p>{c}</p>
+                      </div>
+                 </div>
 
-                 <div>  <img src={img4} alt="img" /></div>
+                 <div  className='img-cont-2' >  
+                           <img src={img4} alt="img" />
+                           <div className="overlay">
+                               <p>{d}</p>
+                           </div>
+                        
+                 </div> 
+
+             
           
         
             
             
           </div>
-    </div>
+
+          </div>
+    
   )
 }
 
