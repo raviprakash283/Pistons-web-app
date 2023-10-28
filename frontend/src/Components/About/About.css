@@ -1,5 +1,8 @@
  
-
+@font-face {
+  font-family: 'oxygen';
+  src: url('https://fonts.googleapis.com/css?family=Oxygen');
+}
 
   .aboutSection {
     height: 636px;
@@ -13,10 +16,7 @@
   
   
 
-   @font-face {
-    font-family: my;
-    src: url('https://fonts.googleapis.com/css?family=Oxygen');
-  }
+   
   .aboutSectionContainer {
     position: absolute;
     left: 50%;
@@ -55,8 +55,9 @@
 
   
   .aboutSectionContainer2 {
-    font-family: my;
-    font-weight: bold;
+    font-family: 'oxygen';
+    font-weight: normal;
+    align-self: start;
   }
   
   

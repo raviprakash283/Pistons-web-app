@@ -1,65 +1,70 @@
 
 
    /* Footer.css */
-footer {
-  margin-top: 10vmax;
-  padding: 2vmax;
-  background-color: rgb(34, 33, 33);
-  color: white;
-  display: flex;
-  align-items: center;
-  height: 254px;
-}
-
-.leftFooter {
-  width: 20%;
-}
-
-.midFooter {
-  width: 60%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: space-between;
-  justify-content: space-between;
-  text-align: center;
-}
-
-
-
-.brands {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.rightFooter {
-  width: 20%;
-}
-
-/* Responsive styles for smaller screens */
-@media (max-width: 768px) {
-  footer {
-    flex-direction: column; /* Stack elements on top of each other */
+   footer {
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 254px;
+  }
+  
+  .leftFooter {
+    width: 20%;
+  }
+  
+  .midFooter {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
     text-align: center;
   }
-
-  .leftFooter,
-  .rightFooter {
-    width: 100%; /* Full width for side sections */
-  }
-
-  .midFooter {
-    width: 100%; /* Full width for the central section */
-  }
-
+  
+  
+  
   .brands {
-    margin-top: 10px; /* Add space between social icons and text */
-    img {
-      width: 24px; /* Decrease the size of social icons */
+    display: flex;
+      justify-content: space-around;
+    
+  }
+
+  
+
+
+  
+  .rightFooter {
+    width: 20%;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    footer {
+      flex-direction: column; 
+      text-align: center;
+    }
+  
+    .leftFooter,
+    .rightFooter {
+      width: 100%;
+    }
+  
+    .midFooter {
+      width: 100%; 
+    }
+  
+    .brands {
+      margin-top: 10px; 
+      img {
+        width: 24px; 
+      }
+    }
+  
+    footer h1 {
+      font-size: 1.5rem; 
     }
   }
-
-  footer h1 {
-    font-size: 1.5rem; /* Reduce text size for smaller screens */
-  }
-}

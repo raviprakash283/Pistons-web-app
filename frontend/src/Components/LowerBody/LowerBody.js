@@ -8,7 +8,7 @@ import fmn from "../../assets/Frame 9.png"
 const A = () => {
   return (
     <div>
-    <div className='ic'> 
+    <div className='ik'> 
 
           <div className='ii'>
 

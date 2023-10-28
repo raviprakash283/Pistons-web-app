@@ -11,16 +11,17 @@
 
 
 @font-face {
-  font-family: sky;
-  src: url('https://fonts.googleapis.com/css2?family=Pridi&display=swap');
-}
-
+  font-family: 'Pridi';
+  src: url('https://fonts.googleapis.com/css2?family=Pridi:wght@400&display=swap');
+} 
 
 .logo {
   font-size: 24px;
-  font-family: sky;
+  font-family: 'Pridi', sans-serif; 
+  font-weight: normal; 
   margin-left: 23px;
 }
+
 
 
 .navbar a{
@@ -125,7 +126,7 @@
   
   font-weight: bold; 
 
-    font-family: sky;
+    font-family: 'sky';
  }
 
  .L{
@@ -158,10 +159,7 @@
       color: #fff;
     }
 
-    .srch{
-        display: flex;
-        justify-content: flex-start;
-    }
+    
 
 
 }
