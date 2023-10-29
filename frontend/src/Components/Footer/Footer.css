@@ -29,7 +29,9 @@
   
   .brands {
     display: flex;
-      justify-content: space-around;
+      gap:40px;
+      justify-content: center;
+     
     
   }
 
@@ -55,13 +57,20 @@
   
     .midFooter {
       width: 100%; 
+    
     }
   
     .brands {
       margin-top: 10px; 
+      display: flex;
+      gap:unset;
+      
+      justify-content: space-evenly;
       img {
         width: 24px; 
       }
+       
+
     }
   
     footer h1 {
