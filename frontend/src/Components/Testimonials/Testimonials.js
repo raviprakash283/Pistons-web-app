@@ -17,7 +17,7 @@ const Testimonials = () => {
  
 
 
-  //   const url = 'test-api/testimonials.json';
+  //   const url = 'https://elitefit4you.com/test-api/testimonials.json';
     
 
 
